@@ -50,6 +50,7 @@ const _deprecatedMessageTypes = [
 ];
 
 // enable cancellation
+deprecate('Automatic enabling of cancellation of promises is deprecated. See https://github.com/yagop/node-telegram-bot-api/issues/319.');
 Promise.config({
   cancellation: true,
 });
